@@ -1,8 +1,8 @@
 {
     "name": "laravel/laravel",
     "type": "project",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "description": "The Traffic Tracker.",
+    "keywords": ["traffic", "tracker", "analytic"],
     "license": "MIT",
     "require": {
         "php": "^8.0",
