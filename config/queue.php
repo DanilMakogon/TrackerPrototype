@@ -1,7 +1,5 @@
 <?php
 
-use App\Queue\Jobs\PingJob;
-
 return [
     'default' => env('QUEUE_CONNECTION', 'sync'),
 
@@ -71,9 +69,6 @@ return [
                     'local_key' => env('RABBITMQ_SSL_LOCALKEY', null),
                     'verify_peer' => env('RABBITMQ_SSL_VERIFY_PEER', true),
                     'passphrase' => env('RABBITMQ_SSL_PASSPHRASE', null),
-                ],
-                'queue' => [
-                    'job' => PingJob::class,
                 ],
             ],
 
